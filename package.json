@@ -1,0 +1,16 @@
+{
+  "name": "tasksequence",
+  "version": "1.0.0",
+  "description": "convert videos",
+  "author": "Charlie Clark",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "tasksequence": "index.js"
+  },
+  "devDependencies": {
+    "promise": "^7.0.4",
+    "string-template": "^0.2.1",
+    "yargs": "^3.26.0"
+  }
+}
