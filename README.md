@@ -24,7 +24,7 @@ this allows you to build your array dynamically if necessary
     var files = ['image1.jpg', 'image2.jpg'];
     
     tasks = files.map(function(file){
-        return 'git commit ' + file;
+        return 'git commit -m "a stupid example" ' + file;
     });
     module.exports = tasks;
 
