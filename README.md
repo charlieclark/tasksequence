@@ -6,7 +6,7 @@ easily sequence an array of tasks by pointing to a `.json` or `.js` file
 
 ### install the node task globally
 
-`npm install -g <repo>`
+`npm install -g https://github.com/charlieclark/tasksequence.git`
 
 ### create a config file as a valid json file, or a node module
  
