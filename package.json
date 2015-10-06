@@ -8,7 +8,7 @@
   "bin": {
     "tasksequence": "index.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "promise": "^7.0.4",
     "string-template": "^0.2.1",
     "yargs": "^3.26.0"
