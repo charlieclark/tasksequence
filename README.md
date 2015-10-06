@@ -9,7 +9,7 @@ easily sequence an array of tasks by pointing to a `.json` or `.js` file
 `npm install -g <repo>`
 
 ### create a config file as a valid json file, or a node module
-
+ 
 #### eg 1 (config.json)
     [
         "node build release"
