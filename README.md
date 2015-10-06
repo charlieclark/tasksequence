@@ -19,11 +19,14 @@ easily sequence an array of tasks by pointing to a `.json` or `.js` file
 
 #### eg 2 (config.js)
 this allows you to build your array dynamically if necessary
-    module.exports = [
-        'node build release'
-        'git add -A',
-        'git commit --verbose'
-    ];
+
+    var tasks = [];
+    var files = ['image1.jpg', 'image2.jpg'];
+    
+    tasks = files.map(function(file){
+        return 'git commit ' + file;
+    });
+    module.exports = tasks;
 
 ### run the task sequencer 
 
